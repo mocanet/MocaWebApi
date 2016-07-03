@@ -316,10 +316,6 @@
   <Target Name="AfterBuild">
 	</Target>
   -->
-  <PropertyGroup>
-    <AjaxMinTargets>$(SolutionDir)packages\AjaxMin.5.14.5506.26202\tools\net40\AjaxMin.targets</AjaxMinTargets>
-  </PropertyGroup>
-  <Import Project="$(AjaxMinTargets)" Condition="Exists('$(AjaxMinTargets)')" />
   <Import Project="..\packages\MiYABiS.WebConfigTransform.1.0.2\build\MiYABiS.WebConfigTransform.targets" Condition="Exists('..\packages\MiYABiS.WebConfigTransform.1.0.2\build\MiYABiS.WebConfigTransform.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
