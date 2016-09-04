@@ -20,11 +20,11 @@
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
     <dependencies>
       <group targetFramework=".NETFramework4.0">
-        <dependency id="Moca.NETWebApp" version="2.1.0" />
+        <dependency id="Moca.NETWebApp" version="2.1.0-beta" />
         <dependency id="AspNetWebApi" version="4.0.20710.0" />
       </group>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="Moca.NETWebApp" version="2.1.0" />
+        <dependency id="Moca.NETWebApp" version="2.1.0-beta" />
         <dependency id="Microsoft.AspNet.WebApi" version="5.2.3" />
       </group>
     </dependencies>

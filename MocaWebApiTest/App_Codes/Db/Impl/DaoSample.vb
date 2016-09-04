@@ -8,7 +8,7 @@ Namespace Db.Impl
 	''' </summary>
     ''' <remarks></remarks>
     Public Class DaoSample
-		Inherits AbstractDao
+        Inherits AbstractDao
         Implements IDaoSample
 
         Public Function GetValue(id As Integer) As String Implements IDaoSample.GetValue
