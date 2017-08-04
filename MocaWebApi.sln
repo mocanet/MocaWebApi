@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0696CCAB-1BDD-444D-922A-DBF279454E54}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,6 +24,11 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MocaWebApi462", "MocaWebApi\MocaWebApi462.vbproj", "{9886C8FE-5779-49EC-82CC-6C61D0383007}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MocaWebApi47", "MocaWebApi\MocaWebApi47.vbproj", "{BE183B3E-359C-4CC8-8D14-A507FA725B18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2534BE38-3F1A-41DD-A8F0-048CAEEF5140}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

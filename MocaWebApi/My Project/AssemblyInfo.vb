@@ -7,11 +7,11 @@ Imports System.Runtime.InteropServices
 ' これらの属性値を変更します。
 
 ' アセンブリの属性値を確認します
-<Assembly: AssemblyDescription("MocaWebApi")>
-<Assembly: AssemblyCompany("MiYABiS")> 
-<Assembly: AssemblyProduct("MocaWebApi")> 
-<Assembly: AssemblyCopyright("Copyright © 2014 MiYABiS All Rights Reserved.")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyDescription("Moca.NET Web API")>
+<Assembly: AssemblyCompany("MiYABiS")>
+<Assembly: AssemblyProduct("Moca.NET Framework")>
+<Assembly: AssemblyCopyright("© MiYABiS All Rights Reserved.")>
+<Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(True)> 
 
@@ -32,39 +32,27 @@ Imports System.Runtime.InteropServices
 ' プログラム要素が CLS (Common Language Specification) に準拠しているかどうかを示します
 <Assembly: System.CLSCompliant(True)>
 
+
+<Assembly: AssemblyVersion("5.0.0")>
+<Assembly: AssemblyFileVersion("3.0.0")>
+<Assembly: AssemblyInformationalVersion("3.0.0")>
+
+
 #If net40 Then
-<Assembly: AssemblyVersion("4.0.0")> 
-<Assembly: AssemblyFileVersion("4.0.0")> 
-<Assembly: AssemblyTitle("Moca.NET Web API .NET 4.0")> 
-<Assembly: AssemblyInformationalVersion("4.0.0 .NET 4.0")>
+<Assembly: AssemblyTitle("Moca.NET Web API .NET 4.0")>
 #End If
 #If net45 Then
-<Assembly: AssemblyVersion("4.5.0")> 
-<Assembly: AssemblyFileVersion("4.5.0")> 
 <Assembly: AssemblyTitle("Moca.NET Web API .NET 4.5")> 
-<Assembly: AssemblyInformationalVersion("4.5.0 .NET 4.5")>
 #End If
 #If net452 Then
-<Assembly: AssemblyVersion("4.5.2")> 
-<Assembly: AssemblyFileVersion("4.5.2")> 
 <Assembly: AssemblyTitle("Moca.NET Web API .NET 4.5.2")> 
-<Assembly: AssemblyInformationalVersion("4.5.2 .NET 4.5.2")>
 #End If
 #If net46 Then
-<Assembly: AssemblyVersion("4.6.0")> 
-<Assembly: AssemblyFileVersion("4.6.0")> 
 <Assembly: AssemblyTitle("Moca.NET Web API .NET 4.6")> 
-<Assembly: AssemblyInformationalVersion("4.6.0 .NET 4.6")>
 #End If
 #If net462 Then
-<Assembly: AssemblyVersion("4.6.2")> 
-<Assembly: AssemblyFileVersion("4.6.2")> 
 <Assembly: AssemblyTitle("Moca.NET Web API .NET 4.6.2")> 
-<Assembly: AssemblyInformationalVersion("4.6.2 .NET 4.6.2")>
 #End If
 #If net47 Then
-<Assembly: AssemblyVersion("4.7.0")> 
-<Assembly: AssemblyFileVersion("4.7.0")> 
 <Assembly: AssemblyTitle("Moca.NET Web API .NET 4.7")> 
-<Assembly: AssemblyInformationalVersion("4.7.0 .NET 4.7")>
 #End If

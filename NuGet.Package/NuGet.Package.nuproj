@@ -24,7 +24,7 @@
   <PropertyGroup Label="Configuration">
     <id>Moca.NETWebApi</id>
     <title>Moca.NET Web API</title>
-    <version>2.1.0-beta02</version>
+    <version>3.0.0-beta01</version>
     <authors>MiYABiS</authors>
     <owners>MiYABiS</owners>
     <description>DI with AOP framework Moca.NET Web API</description>
@@ -38,13 +38,13 @@
     <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
     <references>
     </references>
-    <tags>Moca</tags>
+    <tags>Moca.NET</tags>
     <GenerateSymbolPackage>true</GenerateSymbolPackage>
     <EmbedSourceFiles>true</EmbedSourceFiles>
-    <IconUrl>https://avatars3.githubusercontent.com/u/14543303?s=64</IconUrl>
+    <IconUrl>https://avatars3.githubusercontent.com/u/14543303?s=256</IconUrl>
   </PropertyGroup>
   <PropertyGroup>
-    <NuProjPath>..\packages\NuProj.0.11.28-beta\tools\</NuProjPath>
+    <NuProjPath>..\packages\NuProj.0.11.30\tools\</NuProjPath>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <Import Project="$(NuProjPath)\NuProj.targets" />
